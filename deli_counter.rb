@@ -6,3 +6,6 @@ def line(customers)
   
   
 end
+
+
+def take_a_number(peopel_in_line, )
