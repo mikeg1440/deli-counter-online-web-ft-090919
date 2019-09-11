@@ -14,10 +14,11 @@ def line(customers)
     customers.each_with_index do |person, position|
       people_in_line += "#{position + 1}. #{person} " 
     end
+    
+    puts "The line is currently: #{people_in_line}"
   
   end
   
-  puts "The line is currently: #{people_in_line}"
 end
 
 
