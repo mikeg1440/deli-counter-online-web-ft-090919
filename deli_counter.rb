@@ -15,7 +15,7 @@ def line(customers)
       people_in_line += " #{position + 1}. #{person}" 
     end
     
-    puts "The line is currently: #{people_in_line}"
+    puts "The line is currently:#{people_in_line}"
   
   end
   
