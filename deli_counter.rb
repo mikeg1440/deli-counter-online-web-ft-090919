@@ -32,6 +32,8 @@ end
 
 def now_serving(people_in_line)
   
-  next_up = people_in_line.shift
+  next_person = people_in_line.shift
+  
+  puts "Currently serving #{next_person}"
   
 end
