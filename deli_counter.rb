@@ -7,7 +7,7 @@ def line(customers)
     
   else
   
-    # puts "The line is currently: "
+    # puts "The line is currently:"
     
     people_in_line = ""
     
