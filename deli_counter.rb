@@ -9,10 +9,10 @@ def line(customers)
   
     # puts "The line is currently: "
     
-    people_with_positions = 
+    people_in_line = ""
     
     customers.each_with_index do |person, position|
-      print "#{position + 1}. #{person} " 
+      people_in_line += "#{position + 1}. #{person} " 
     end
   
   end
