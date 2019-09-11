@@ -24,6 +24,7 @@ def take_a_number(people_in_line, person_joining)
   
   people_in_line << person_joining
   
-  puts ""
+  puts "Welcome, #{person_joining}.  You are number #{"
   
+  people_in_line
 end
