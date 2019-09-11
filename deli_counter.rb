@@ -1,7 +1,6 @@
 
 
-def line()
+def line
   
-  
-  
+  puts ""
 end
