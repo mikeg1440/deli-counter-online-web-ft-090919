@@ -7,7 +7,9 @@ def line(customers)
     
   else
   
-    puts "The line is currently: "
+    # puts "The line is currently: "
+    
+    people_with_positions = 
     
     customers.each_with_index do |person, position|
       print "#{position + 1}. #{person} " 
