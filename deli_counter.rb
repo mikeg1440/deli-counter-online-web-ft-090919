@@ -38,8 +38,10 @@ def now_serving(people_in_line)
     
   else
   
-  next_person = people_in_line.shift
-  
-  puts "Currently serving #{next_person}."
+    next_person = people_in_line.shift
+    
+    puts "Currently serving #{next_person}."
+
+  end
   
 end
