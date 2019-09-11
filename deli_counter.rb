@@ -28,3 +28,10 @@ def take_a_number(people_in_line, person_joining)
   
   people_in_line
 end
+
+
+def now_serving(people_in_line)
+  
+  next_up = people_in_line.
+  
+end
