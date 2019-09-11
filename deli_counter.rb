@@ -1,8 +1,8 @@
 
 
-def line
+def line(customers)
   
-  puts "The line is currently empty." if line.empty
+  puts "The line is currently empty." if customers.empty
   
   
 end
