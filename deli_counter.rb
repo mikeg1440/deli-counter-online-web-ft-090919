@@ -17,6 +17,7 @@ def line(customers)
   
   end
   
+  puts "The line is currently: #{people_in_line}"
 end
 
 
