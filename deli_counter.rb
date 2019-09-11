@@ -10,7 +10,7 @@ def line(customers)
     puts "The line is currently: "
     
     customers.each_with_index do |person, position|
-      print "#" 
+      print "#{position + 1}. #{person} " 
     end
   
   end
